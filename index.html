@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chocolatta</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section class="panel panel-left panel-cover">
+			
+				<div class="info-menu">
+								
+					<div class="row">
+					
+						<article class="col-30 text-align-center">
+							<img src="img/perfil.JPG" class="img-fluid" alt="">
+						</article>
+						<article class="col-70">
+							<p class="nombre">Valeria Castro</p>
+						</article>
+					
+					</div>
+					
+				</div>
+								
+				
+				<div class="list media-list">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Home</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media"><i class="material-icons">inventory</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Products</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">shopping_cart</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Cart</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">person_pin</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Profile</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+								
+			
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="title">Chocolatta</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <div class="block">
+				  
+					  <h3>Hola, <b>Valeria Castro</b></h3>
+					  <h2 class="texto-inicial">¿Qué se te antoja hoy?</h2>
+					  
+					  <div class="banner-inicio">
+					  
+						  <div class="row">
+						  
+							  <article class="col-55">
+								  <h5>El favorito de la semana</h5>
+								  <h2>Chocolate amargo</h2>
+								  <div class="precio">
+								  	<b>L.30</b>
+								  </div>
+							  </article>
+							  
+							  <article class="col-45">
+							  	<img src="img/2-amargo.webp" class="img-fluid" alt="">
+							  </article>
+						  
+						  </div>
+					  	
+					  </div>
+					  
+					  <div class="row">
+					  
+						  <article class="col-70">
+						  	<h2 class="block-title">Tus favoritos</h2>
+						  </article>
+						  
+						  <article class="col-30 text-align-right">
+						  	<h2 class="block-title letra-link-title"><a href="/products/">See all <span class="material-icons">east</span></a></h2>
+						  </article>
+						  
+					  </div>
+					  
+					  <section id="productos" style="display: none;">
+						  
+						  <div class="row">
+						  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/cafe-capuccino.png" class="img-fluid" alt="">
+											<p class="nombre">Relleno de cereza</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.35
+											<a href="#"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/8-dulcedelechedos.jpeg" class="img-fluid" alt="">
+											<p class="nombre">Relleno de Leche</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.35
+											<a href="#"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+						  </div>
+						  
+						  <div class="row">
+						  
+						  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/9-chocolateblanco.jpeg" class="img-fluid" alt="">
+											<p class="nombre">Relleno blanco</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.35
+											<a href="#"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+	
+						  </div>
+						  
+					  </section>
+				  
+					  <section id="product">
+					  
+						  <div data-space-between="0" data-slides-per-view="2" class="swiper-container swiper-init">
+							  
+							  <div class="swiper-wrapper">
+								  <div class="swiper-slide">
+								  	<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/4-cereza.jpeg" class="img-fluid" alt="">
+											<p class="nombre">Relleno de Cereza</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.35
+											<a href="/info-cereza/"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+								  </div>
+								  <div class="swiper-slide">
+								  
+									  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/8-dulcedelechedos.jpeg" class="img-fluid" alt="">
+											<p class="nombre">Relleno de Leche</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.40
+											<a href="/info-cereza/"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+								  
+								  </div>
+								  
+								  <div class="swiper-slide">
+								  
+									  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/9-chocolateblanco.jpeg" class="img-fluid" alt="">
+											<p class="nombre">Relleno blanco</p>
+											<p class="categoria">Amargo</p>
+										</div>
+
+										<div class="card-footer">
+											L.20
+											<a href="/info/"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+								  
+								  </div>
+								
+							  </div>
+							</div>
+						  
+					  </section>
+				  
+				  </div>
+				  
+				  
+			  </section>
+
+			</section>
+			
+			<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+			  <div class="toolbar-inner">
+				<a class="tab-link">
+					<i class="material-icons">home</i>
+					Home
+				</a>
+				<a class="tab-link">
+					<i class="material-icons">shopping_bag</i>
+					Orders
+				</a>
+				<a class="tab-link">
+					<i class="material-icons">person_pin</i>
+					Profile
+				</a>
+			  </div>
+			</nav>
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
